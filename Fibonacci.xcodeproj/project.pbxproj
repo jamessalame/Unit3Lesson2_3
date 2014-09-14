@@ -12,6 +12,7 @@
 		D72A8D7519C6435800698DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72A8D7319C6435800698DFF /* Main.storyboard */; };
 		D72A8D7719C6435800698DFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72A8D7619C6435800698DFF /* Images.xcassets */; };
 		D72A8D8319C6435800698DFF /* FibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A8D8219C6435800698DFF /* FibonacciTests.swift */; };
+		D72A8D8D19C6439900698DFF /* FibonacciModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A8D8C19C6439900698DFF /* FibonacciModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		D72A8D7C19C6435800698DFF /* FibonacciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72A8D8119C6435800698DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D72A8D8219C6435800698DFF /* FibonacciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciTests.swift; sourceTree = "<group>"; };
+		D72A8D8C19C6439900698DFF /* FibonacciModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				D72A8D7319C6435800698DFF /* Main.storyboard */,
 				D72A8D7619C6435800698DFF /* Images.xcassets */,
 				D72A8D6D19C6435800698DFF /* Supporting Files */,
+				D72A8D8C19C6439900698DFF /* FibonacciModel.swift */,
 			);
 			path = Fibonacci;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72A8D8D19C6439900698DFF /* FibonacciModel.swift in Sources */,
 				D72A8D7219C6435800698DFF /* ViewController.swift in Sources */,
 				D72A8D7019C6435800698DFF /* AppDelegate.swift in Sources */,
 			);
